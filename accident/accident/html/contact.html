@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Traffic Fatality Database</title>
+    <link rel="stylesheet" href="../css/contact.css">
+    <script src="../javascript/contact.js" type="text/javascript"></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header> 
+        <h1>Traffic Fatality Database</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="table.html">Accidents</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="signin.html">Sign In</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="contact-info">
+        <h2>Contact Us</h2>
+        <p>We are here to provide information and resources related to traffic safety and accident data.</p>
+    </section>
+
+
+    <!-- Main Content -->
+    <main class="contact-container">
+
+        <!-- Contact Information Section -->
+        <section class="contact-info">
+            <h2>Get in Touch</h2>
+            <p>If you have questions, need assistance, or want to report an accident, please reach out using the following information.</p>
+            <ul>
+                <li><strong>Phone:</strong> +1 234 567 8900</li>
+                <li><strong>Email:</strong> support@trafficfatalitiesdb.com</li>
+                <li><strong>Address:</strong> 123 Road Safety Ave, Traffic City, TC 12345</li>
+            </ul>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="/submit_contact" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <!-- Additional Resources Section -->
+        <section class="resources">
+            <h2>Additional Resources</h2>
+            <ul>
+                <li><a href="safety-tips.html">Road Safety Tips</a></li>
+                <li><a href="accident-prevention.html">Accident Prevention Resources</a></li>
+                <li><a href="emergency-contacts.html">Emergency Contacts</a></li>
+                <li><a href="report-accident.html">Report an Accident</a></li>
+            </ul>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Traffic Fatality Database. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

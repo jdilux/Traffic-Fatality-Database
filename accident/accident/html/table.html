@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accident Details</title>
+    <link rel="stylesheet" href="../css/table.css">
+    <script src="../javascript/table.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Traffic Fatality Database</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="table.html">Accidents</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="signin.html">Sign In</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Traffic Accident Details</h1>
+        
+        <!-- Search Bar -->
+        <input type="text" id="searchBar" placeholder="Search by reason or date..." onkeyup="filterTable()">
+        
+        <table id="accidentTable">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Location</th>
+                    <th>Reason</th>
+                    <th>Injuries</th>
+                    <th>Fatalities</th>
+                    <th>Total Vehicles Involved</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2024-10-01</td>
+                    <td>Main St & 1st Ave</td>
+                    <td>Speeding</td>
+                    <td>3</td>
+                    <td>1</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>2024-10-05</td>
+                    <td>2nd Ave & Elm St</td>
+                    <td>Distracted Driving</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>2024-10-12</td>
+                    <td>3rd Ave & Maple St</td>
+                    <td>Drunk Driving</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>2024-10-15</td>
+                    <td>4th Ave & Pine St</td>
+                    <td>Weather Conditions</td>
+                    <td>4</td>
+                    <td>0</td>
+                    <td>3</td>
+                </tr>
+                <!-- Add more accident records as needed -->
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
